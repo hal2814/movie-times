@@ -13,3 +13,8 @@ display: none;
 #emoji{
   display: none;
 }
+
+li{
+  color: green;
+  font-size: 30px;
+}
