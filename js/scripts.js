@@ -59,6 +59,7 @@ $(document).ready(function() {
   });
   $("form#movieForm").submit(function(event) {
     event.preventDefault();
+    $("#output li").remove();
     var age = $("#movie-age").val();
     var time = $("#movie-time").val();
     var newTicketInfo = new ticketInfo(age,time);
